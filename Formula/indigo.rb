@@ -2,28 +2,28 @@
 class Indigo < Formula
   desc "Modal terminal text editor with built-in language server support"
   homepage "https://github.com/indiejames/indigo"
-  version "2026.10.3"
+  version "2026.10.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/indiejames/indigo/releases/download/2026.10.3/indigo-2026.10.3-darwin-arm64.tar.gz"
-      sha256 "3bc9349217ed6eb03c87ba2b725c6fd9567e9ab8f5498880968ff113171bc815"
+      url "https://github.com/indiejames/indigo/releases/download/2026.10.4/indigo-2026.10.4-darwin-arm64.tar.gz"
+      sha256 "25caadc330817aff4671a2ae31dd7217bb95351ba7e706b056498b8fe68a23f2"
     end
     on_intel do
-      url "https://github.com/indiejames/indigo/releases/download/2026.10.3/indigo-2026.10.3-darwin-amd64.tar.gz"
-      sha256 "9333e4d04816e0ac5249bd041bdd643cce69f7997e966975a68a2cd915f631e1"
+      url "https://github.com/indiejames/indigo/releases/download/2026.10.4/indigo-2026.10.4-darwin-amd64.tar.gz"
+      sha256 "ceb6c0773a156ce56dfb26790b03b5b6cb1fc9973facc5cb55d1e340ef8aa7f0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/indiejames/indigo/releases/download/2026.10.3/indigo-2026.10.3-linux-arm64.tar.gz"
-      sha256 "4c4d605670b77926fd001ccc836221d27dcf9d4f7b1ba6c591b59c1dcb0cf484"
+      url "https://github.com/indiejames/indigo/releases/download/2026.10.4/indigo-2026.10.4-linux-arm64.tar.gz"
+      sha256 "eac1dc94bf88428b5654d0c1144cae668f5d5811e2d7ec160fdf1f3393900bad"
     end
     on_intel do
-      url "https://github.com/indiejames/indigo/releases/download/2026.10.3/indigo-2026.10.3-linux-amd64.tar.gz"
-      sha256 "4eced0a181cd33e0546513594d4b62a077e7fead0fbe385bed58cdb4df6f3cb6"
+      url "https://github.com/indiejames/indigo/releases/download/2026.10.4/indigo-2026.10.4-linux-amd64.tar.gz"
+      sha256 "7829f4aec6c2f42196ec275142e825b53c9e60e4e9f02c2dbaf386ac3497fa9b"
     end
   end
 
